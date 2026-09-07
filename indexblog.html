@@ -335,6 +335,70 @@
                         </div>
 
                     </article>
+
+                    <article class="mb-14">
+                        <h2 class="text-2xl font-serif font-bold border-b mb-5 pb-3 border-(--border)">Docker Compose:
+                            When One Container Isn't Enough</h2>
+                        <div class="mb-5 text-(--text-3) leading-loose">Real applications are rarely just one thing. A
+                            typical web app has a backend server, a database, a cache, maybe a background job worker,
+                            and a reverse proxy. That's five separate services, each needing its own environment.</div>
+
+                        <div class="mb-5 text-(--text-3) leading-loose"><span class=" text-white font-semibold">Docker
+                                Compose</span> solves this. It lets
+                            you define
+                            all your services in a single configuration
+                            file. With one command, you can start your entire application stack - database included - in
+                            seconds. With another command, you can tear the whole thing down.</div>
+
+                        <div class="border border-(--border) rounded-xl bg-(--surface-card) mb-6 p-6">
+
+                            <h3 class="text-(--text-4) tracking-widest mb-4 text-xs font-semibold uppercase">Example: A
+                                Typical Web Stack</h3>
+
+                            <div class=" flex items-center gap-3 mb-3">
+                                <div class="h-2 w-2 bg-blue-400  shrink-0 rounded-full"></div>
+                                <div class="flex gap-1">
+                                    <div class="text-sm font-semibold">api</div>
+                                    <div class="text-(--text-2) text-sm">- Your Node.js or Python backend</div>
+                                </div>
+                            </div>
+                            <div class=" flex items-center gap-3 mb-3">
+                                <div class="h-2 w-2 bg-green-400  shrink-0 rounded-full"></div>
+                                <div class="flex gap-1">
+                                    <div class="text-sm font-semibold">db</div>
+                                    <div class="text-(--text-2) text-sm">- PostgreSQL database</div>
+                                </div>
+                            </div>
+                            <div class=" flex items-center gap-3 mb-3">
+                                <div class="h-2 w-2 bg-red-400  shrink-0 rounded-full"></div>
+                                <div class="flex gap-1">
+                                    <div class="text-sm font-semibold">cache</div>
+                                    <div class="text-(--text-2) text-sm">- Redis for fast data access</div>
+                                </div>
+                            </div>
+                            <div class=" flex items-center gap-3 mb-3 ">
+                                <div class="h-2 w-2 bg-violet-400  shrink-0 rounded-full"></div>
+                                <div class="flex gap-1">
+                                    <div class="text-sm font-semibold">nginx</div>
+                                    <div class="text-(--text-2) text-sm">- Reverse proxy and static file server</div>
+                                </div>
+
+                            </div>
+
+                            <div class="border-b border-(--border) mt-4"></div>
+
+                            <p class="text-(--text-4) text-xs leading-relaxed pt-4">All four containers - with proper
+                                networking between them - spun up with a single
+                                command. Shut down cleanly with another. Every developer on the team gets the exact same
+                                setup.</p>
+                        </div>
+
+                        <div class="mb-5 text-(--text-3) leading-loose">For
+                            local development especially, Docker Compose is a game-changer. New teammates can clone
+                            the repo, run one command, and have the full environment running on their machine in
+                            under a minute - regardless of what OS they're using.</div>
+                    </article>
+
                 </section>
 
 
