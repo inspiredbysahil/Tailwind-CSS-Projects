@@ -78,21 +78,27 @@
                         <h3 class="uppercase text-sm font-sans text-(--text-4) font-semibold mb-5">Contents</h3>
 
                         <div class="text-xs flex flex-col gap-4 text-(--text-4) ">
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">The
+                            <a href="#problem"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">The
                                 Problem</a>
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">What is
+                            <a href="#docker"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">What is
                                 Docker?</a>
-                            <a href=""
+                            <a href="#vms"
                                 class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Containers
                                 vs VMs</a>
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Key
+                            <a href="#concept"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Key
                                 Concepts</a>
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Docker
+                            <a href="#compose"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Docker
                                 Compose</a>
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Why
+                            <a href="#dockerlove"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Why
                                 Teams
                                 Use It </a>
-                            <a href="" class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Where To
+                            <a href="#startdocker"
+                                class="hover:text-(--accent) transition-all duration-200 cursor-pointer">Where To
                                 Start</a>
                         </div>
                     </div>
@@ -103,7 +109,8 @@
 
                     <article class="">
 
-                        <div class="text-base text-(--text-2) leading-loose ">Picture this: you spend two days building
+                        <div id="problem" class="text-base text-(--text-2) leading-loose ">Picture this: you spend two
+                            days building
                             a feature on
                             your laptop. Tests pass. Everything
                             works. You push the code, your teammate pulls it down - and nothing runs. Error messages
@@ -126,7 +133,8 @@
                     </article>
 
                     <article>
-                        <p class="mb-14 text-(--text-3) leading-loose">Docker was created to solve exactly this problem.
+                        <p id="docker" class="mb-14 text-(--text-3) leading-loose">Docker was created to solve exactly
+                            this problem.
                             And it does it so well that it's now one of
                             the most widely used tools in all of software development - from small startups to
                             Google-scale companies.</p>
@@ -144,7 +152,8 @@
                             someone "go to the store, buy bread, find mustard, and oh by the way you need a specific
                             brand of knife" - you just hand them the lunchbox. Everything they need is already inside,
                             pre-packed, and ready to go. No assembly required.</div>
-                        <div class="mb-5 text-(--text-3) leading-loose">That lunchbox runs the same way whether you open
+                        <div id="vms" class="mb-5 text-(--text-3) leading-loose">That lunchbox runs the same way whether
+                            you open
                             it
                             on your laptop, your teammate's Windows PC, a server in Germany, or a cloud machine in
                             Singapore. The contents - and how they behave - are always identical.</div>
@@ -247,7 +256,8 @@
 
                         </div>
 
-                        <div class="mb-5 text-(--text-3) leading-loose">Containers are so lightweight that you can run
+                        <div id="concept" class="mb-5 text-(--text-3) leading-loose">Containers are so lightweight that
+                            you can run
                             dozens of them on a single laptop simultaneously, each completely isolated from the others.
                             This was simply not practical with virtual machines.</div>
                     </article>
@@ -319,7 +329,8 @@
                             </div>
                         </div>
 
-                        <div class="mb-5 p-5 border border-(--border) rounded-xl bg-(--surface-card) flex gap-5">
+                        <div id="compose"
+                            class="mb-5 p-5 border border-(--border) rounded-xl bg-(--surface-card) flex gap-5">
 
                             <div class="w-15 ">
 
@@ -397,7 +408,7 @@
                                 setup.</p>
                         </div>
 
-                        <div class="mb-5 text-(--text-3) leading-loose">For
+                        <div id="dockerlove" class="mb-5 text-(--text-3) leading-loose">For
                             local development especially, Docker Compose is a game-changer. New teammates can clone
                             the repo, run one command, and have the full environment running on their machine in
                             under a minute - regardless of what OS they're using.</div>
@@ -462,7 +473,7 @@
 
                         </div>
 
-                        <div class=" flex items-start gap-4   mb-5">
+                        <div id="startdocker" class=" flex items-start gap-4   mb-5">
                             <div class="h-1.5 w-1.5  bg-yellow-500   shrink-0 rounded-full"></div>
                             <div>
 
